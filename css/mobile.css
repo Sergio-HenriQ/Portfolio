@@ -1,0 +1,111 @@
+html, body {
+    overflow-x: hidden;
+}
+
+
+/* Para não haver scroll lateral */
+body {
+    width: 100%;
+  }
+  
+/* navbar */
+
+#navbar {
+    height: 195px;
+    border: none;
+}
+
+#navbar-container {
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+#navbar-items {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+#navbar-items li:nth-child(even) {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+.person-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.vetor img {
+    height: 200px;
+    width: 300px;
+}
+
+/* Projetos */
+
+.section-projects {
+    margin-top: 45px;
+    height: 100%;
+    width: 100%;
+    color: #eee;
+    padding-bottom: 15px;
+}
+
+.container-projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.container-projects p {
+    font-size: 14px;
+}
+
+.item img {
+    max-width: 249px;
+    height: 125px;
+}
+
+/* Conhecimentos */
+.container-skills {
+   grid-template-columns: 1fr;
+}
+
+.icon {
+    padding-bottom: 30px;
+}
+
+.section-skills {
+    height: 100%;
+}
+
+/* Sobre mim */
+
+.container-about {
+    height: 100%;
+    padding: 15px 15px;
+}
+
+.content-about {
+    width: 100%;
+    height: 100%;
+}
+
+
+.content-about p {
+    margin-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 16px;
+}
+
+
+/* Rodapé */
+
+.footer h2 {
+    font-size: 20px;
+}
